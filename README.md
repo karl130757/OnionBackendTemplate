@@ -66,7 +66,7 @@ src/
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone git@github.com:karl130757/OnionBackendTemplate.git
+   git clone https://github.com/karl130757/OnionBackendTemplate.git
    cd OnionBackendTemplate
    ```
 
