@@ -21,33 +21,4 @@ EXPOSE 3000
 # Command to run the application
 CMD ["npm", "start"]
 
----
 
-# .dockerignore
-
-node_modules
-npm-debug.log
-.env
-
----
-
-# .gitignore
-
-# Node.js specific
-node_modules
-npm-debug.log
-
-# Environment variables
-.env
-
-# Logs
-logs
-*.log
-
-# Dependency directories
-/.pnp
-.pnp.js
-
-# IDE-specific
-.vscode/
-.DS_Store
