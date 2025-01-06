@@ -35,8 +35,8 @@ src/
 │   ├── services/
 │   │   └── AuthService.js     # Auth-related services
 │   └── use-cases/
-│       ├── LoginUser.js       # Login user use-case
-│       └── CreateProfile.js   # Create profile use-case
+│       ├── UserAction.js      # User use-cases
+│       └── ProfileAction.js   # Profile use-cases
 ├── infrastructure/            # Implementation details (DB, external tools)
 │   ├── db/
 │   │   ├── MongoDBClient.js   # MongoDB connection logic

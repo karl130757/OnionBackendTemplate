@@ -1,9 +1,9 @@
-class CreateProfile {
+class ProfileAction {
     constructor(profileRepository) {
       this.profileRepository = profileRepository;
     }
   
-    async execute({ userId, bio, location }) {
+    async create({ userId, bio, location }) {
       const existingProfile = await this.profileRepository.findByUserId(userId);
       if (existingProfile) throw new Error('Profile already exists for this user');
   
@@ -11,5 +11,5 @@ class CreateProfile {
     }
   }
   
-  module.exports = CreateProfile;
+  module.exports = ProfileAction;
   
